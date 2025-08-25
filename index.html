@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSAFY - Welcome</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding-top: 60px; /* Nav bar height */
+            box-sizing: border-box;
+        }
+        .navbar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #343a40;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .navbar .brand {
+            color: white;
+            padding: 14px 0;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .navbar .brand.active {
+             border-bottom: 2px solid #007bff;
+        }
+        .navbar .links a {
+            color: white;
+            padding: 22px 16px;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+        }
+        .navbar .links a:hover {
+            background-color: #495057;
+        }
+        .content-container {
+            padding: 40px;
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="brand active">SSAFY</a>
+        <div class="links">
+            <a href="login.html">로그인</a>
+            <a href="register.html">회원가입</a>
+        </div>
+    </div>
+    <div class="content-container">
+        <h1>SSAFY에 오신 것을 환영합니다!</h1>
+        <p>이곳은 SSAFY 교육생들을 위한 웹사이트입니다. 로그인 또는 회원가입을 통해 다양한 서비스를 이용해보세요.</p>
+        <p>본 사이트는 Gemini CLI를 통해 제작되었습니다. HTML, CSS의 기초적인 구조를 학습하고 실습하는 데 도움이 될 수 있습니다.</p>
+    </div>
+</body>
+</html>
